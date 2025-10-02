@@ -13,7 +13,7 @@ class MailchimpService {
     try {
       const response = await axios.get(`${this.baseURL}/`, {
         auth: {
-          username: "anystring", // Mailchimp uses 'anystring' as username
+          username: "anystring", 
           password: this.apiKey,
         },
       });
